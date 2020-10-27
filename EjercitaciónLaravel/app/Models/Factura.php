@@ -9,7 +9,7 @@ use App\Producto;
 class Factura extends Model
 {
     use HasFactory;
-    public $table = "alertas";
+    public $table = "facturas";
     public $guarded = [];
     public function productos()
     {
